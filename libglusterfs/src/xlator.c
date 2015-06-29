@@ -28,7 +28,8 @@
 #define SET_DEFAULT_CBK(fn) do {			\
                 if (!xl->cbks->fn)			\
                         xl->cbks->fn = default_##fn;	\
-        } while (1)
+
+} while (0)
 
 
 static void
