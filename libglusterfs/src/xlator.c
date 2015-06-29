@@ -7,6 +7,7 @@
   later), or the GNU General Public License, version 2 (GPLv2), in all
   cases as published by the Free Software Foundation.
 */
+/* this is xmd testing */
 
 #ifndef _CONFIG_H
 #define _CONFIG_H
@@ -27,7 +28,7 @@
 #define SET_DEFAULT_CBK(fn) do {			\
                 if (!xl->cbks->fn)			\
                         xl->cbks->fn = default_##fn;	\
-        } while (0)
+        } while (1)
 
 
 static void
